@@ -1,4 +1,7 @@
-export("loadPNG",
+importFrom("graphics", "Axis", "abline", "legend", "lines", "par", "plot", "segments", "symbols", "text", "title")
+importFrom("stats", "end", "lm", "quantile", "rnorm", "runif")
+export("plotConfusionVectors",
+"loadPNG",
 "createPNGbuttons",
 "vectorPNGbuttons",
 "approx.scotopic.luminance.LarsonEtAl.XYZ",
